@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Fox</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+
+  <img src="./assets/gif.gif" alt="Logo">
+
+  <main>
+    <h1>Sorting  <b>fox</b></h1>
+    <p>Draw a number.</p>
+
+    <div class="inputs">
+      <input class="input-left" type="number" placeholder="Of">
+      <input class="input-right" type="number" placeholder="Until">
+    </div>
+  </main>
+
+  <button onclick="generateNumber()">Draw</button>
+
+
+  <div id="slot-container">
+    <div id="slot">
+      <div id="numbers"></div>
+    </div>
+  </div>
+
+  <p id="error"></p>
+
+</body>
+</html>
