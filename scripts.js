@@ -10,7 +10,7 @@ function generateNumber() {
   const right = Math.floor(Number(rightValue))
 
   if (!leftValue || !rightValue || isNaN(left) || isNaN(right)) {
-    error.innerHTML = "⚠️ Fill in correctly!"
+    error.innerHTML = "⚠️ Fill in correctly!!"
     return
   }
 
